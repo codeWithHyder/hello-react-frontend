@@ -1,13 +1,14 @@
+// Greeting.js
+
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import { fetchRandomGreeting } from '../redux/actions';
 
 const Greeting = ({ randomGreeting, fetchRandomGreeting }) => {
   useEffect(() => {
     fetchRandomGreeting();
   }, [fetchRandomGreeting]);
-
-  console.log(randomGreeting);
 
   return (
     <div>
@@ -17,16 +18,21 @@ const Greeting = ({ randomGreeting, fetchRandomGreeting }) => {
   );
 };
 
-const mapStateToProps = (state) => {
-  return {
-    randomGreeting: state.randomGreeting,
-  };
+Greeting.propTypes = {
+  randomGreeting: PropTypes.string,
+  fetchRandomGreeting: PropTypes.func.isRequired,
 };
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    fetchRandomGreeting: () => dispatch(fetchRandomGreeting()),
-  };
+Greeting.defaultProps = {
+  randomGreeting: '',
 };
+
+const mapStateToProps = (state) => ({
+  randomGreeting: state.randomGreeting,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  fetchRandomGreeting: () => dispatch(fetchRandomGreeting()),
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Greeting);
