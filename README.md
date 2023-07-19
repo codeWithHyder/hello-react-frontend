@@ -1,12 +1,9 @@
 <a name="readme-top"></a>
 
-<div align="center">
 
-  <h1><b>hello-Rails-backend</b></h1>
+  <h3><b>Hello Front End App </b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -14,14 +11,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
- 
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -30,147 +25,151 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-# 📖 Hello-react-frontend <a id="about-project"></a>
+# hello-react-front-end📖 <a name="about-project"></a>
 
-This app simply retrieves random greetings from rails api end point and display in browser .
+**hello-react-front-end** Is a webpage that display a random greeting from our back end api [hello-rails-back-end](https://github.com/codeWithHyder/hello-rails-back-end)
+
+The goal of this project is to display the ability to implement a full stack web application by connecting the back end to the front end
+
 ## 🛠 Built With <a name="built-with"></a>
 
-- Javascript
+- HTML.
+- css.
+- javaScript.
+- React & redux
+
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li>javascript</li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">javaScript</a></li>
+    <li><a href="https://react.dev/">React</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>redux</summary>
-  <ul>
-    <li>store</li>
-     <li>actions</li>
-      <li>reducers</li>
-  </ul>
-</details>
-
-<details>
-<summary></summary>
-  <ul>
-    <li></li>
-  </ul>
-</details>
-
-## [LINK to backend  rails hello-rails-backend]()
-
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
--Use redux to centralize the state
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- **React front end framwork**
+- **Git-flow**
+- **Es6 module**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Will be implemented soon
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+1.install git, if you already have git installed skip this step.
+
+2.open command terminal
+
+3.navigate to the directory you want remote directory to be cloned to
+
+4.go to the github and copy the url of the repository
+
+5.clone the repository by typing git clone the url copied in step 4
+
+6.Hit enter in the keyboard
+
+7.navigate to the copy of your cloned repository using cd command
 
 ### Prerequisites
 
-In order to run this project you need: 
+In order to run this project you need:
 
-React , redux dependecies  installed and running. To get more information, read the installation guide.
+- Basic knowdlenge of HTML, CSS, javascript and the code editor of your choice.
+- Basic knowlege of the computer operating system.
+
+### Setup <a name="setup"></a>
+
+Clone this repository to your desired folder:
+
+# Usage <a name="usage"></a>
+
+## note before running this project install and run the back end first
+
+follow this [link](https://github.com/codeWithHyder/hello-rails-back-end) to run the back end
+
+## To run the project, execute the following command:
+
+### npm install
+
+to install all the dependencies used in the project
+
+### npm run build
+
+to build this project from the source folder using webpack
+
+### npm run start
+
+in order to start a server and deploy the project localy
 
 
-### Setup
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-Clone this [repository]() to your desired folder.
-
-### Install
-
-create-react-app
-
-### Usage
-
-**To run the project follow the following instruction:-**
- npm start
-
-### Run tests
+You can deploy this project using: github pages or any host of your choice
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Ghulam Hyder Dar**
 
-- GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
-- Twitter: [@Hyder](https://twitter.com/@hyder3512)
-- LinkedIn: [@Hyder](https://www.linkedin.com/in/ghulam-hyder-dar/)
-
+- GitHub: [@githubhandle](https://github.com/codeWithHyder)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ghulam-hyder-dar/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
--to apply CSS part
 
-
+- [ ] **responsive for all devices**
+- [ ] **adding additional pages**
+- [ ] **impelment animations and transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]().
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a ⭐️.
+If you like this project please give it a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to Microverse for investing in us to realizing a web developer
-
-
+- [the whole Microverse Community](https://www.microverse.org/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **Can I use this project?**
+- **how will i setup this project in local machine**
 
-  - It's MIT license, feel free to use as you like.
+  - run the following command in the terminal: git clone ()
+
+- **which code editor should i use**
+
+  - You can use any editor of your choice but i recommend vs code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 

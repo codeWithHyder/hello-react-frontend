@@ -12,7 +12,7 @@ const Greeting = ({ randomGreeting, fetchRandomGreeting }) => {
 
   return (
     <div>
-      <h1>Random Greeting</h1>
+      <h1>Random Greeting: Hello</h1>
       {randomGreeting && <p>{randomGreeting}</p>}
     </div>
   );
