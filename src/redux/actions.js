@@ -18,7 +18,4 @@ export const fetchRandomGreeting = () => (dispatch) => {
     .then((data) => {
       dispatch(fetchRandomGreetingSuccess(data.greeting));
     });
-  // .catch((error) => {
-  // //   console.error('Error fetching random greeting:', error);
-  // });
-};
+  };
